@@ -17,3 +17,5 @@ env:
    repo_url: gcr.io/${{ secrets.IAM_GCR_REPO }}/app-name
    
 ```
+
+These are available to any repository inside the UWIT-IAM organization.
