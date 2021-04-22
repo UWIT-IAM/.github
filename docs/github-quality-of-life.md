@@ -51,7 +51,7 @@ When using Github Actions, there are a few organization-wide secrets at your dis
   allowed to push to and pull from our GCR repositories, as well as access any 
   resources required to run our actions.
 - `IAM_GCR_REPO`: The name of our GCR project id; this isn't necessarily a secret by itself, 
-  but it's needed often enough that it is frequently re-defined.
+  but is needed often enough to be included here to avoid having to redefine it.
 - `ACTIONS_SLACK_BOT_TOKEN`: 
   Token for the slack bot that is allowed to post from Github actions.
 

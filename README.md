@@ -12,5 +12,5 @@ and the features available to you, consider adding yourself to the
   platform).
 - [workflow templates](workflow-templates) (well, one example template...)  
 
-Other github features that aren't currently use require artifacts to live in this 
+Other github features that aren't currently used require artifacts to live in this 
 repository, so the name (`UWIT-IAM/.github`) cannot be changed.
