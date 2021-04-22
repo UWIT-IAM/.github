@@ -1,21 +1,16 @@
 # .github
-This is where org-wide github templates and other things must be stored.
 
+This is where org-wide github _stuff_ goes.
 
-## Github Actions Secrets
+If you want to be kept in the loop with changes to our github ecosystem 
+and the features available to you, consider adding yourself to the 
+[CODEOWNERS](.github/CODEOWNERS) configuration.
 
-When using Github Actions, there are a few organization-wide secrets at your disposal:
+**Stuff currently in here:**
 
-- `GCR_TOKEN`: A service account credential that is allowed to push to and pull from our GCR repositories.
-- `IAM_GCR_REPO`: The name of our GCR project id; this isn't necessarily a secret by itself, but we should endeavor to keep it out of public contexts
-- `ACTIONS_SLACK_BOT_TOKEN`: Token for the slack bot that is allowed to post from Github actions.
+- [docs pertaining to github or code reviews](docs) (which we do using the github 
+  platform).
+- [workflow templates](workflow-templates) (well, one example template...)  
 
-To use these secrets, simply include them from the secrets context in your github actions and workflows:
-
-```yaml
-env:
-   repo_url: gcr.io/${{ secrets.IAM_GCR_REPO }}/app-name
-   
-```
-
-These are available to any repository inside the UWIT-IAM organization.
+Other github features that aren't currently use require artifacts to live in this 
+repository, so the name (`UWIT-IAM/.github`) cannot be changed.
