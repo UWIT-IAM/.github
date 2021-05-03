@@ -13,7 +13,7 @@ To include peer reviewers for every pull request in your repository, you can do:
 
 ```
 mkdir -p .github
-echo "* @iam-peer-reviewers" >> .github/CODEOWNERS
+echo "* @UWIT-IAM/iam-peer-reviewers" >> .github/CODEOWNERS
 ```
 
 That's it! If you want to further configure this, refer to Github's own CODEOWNERS 
