@@ -7,4 +7,4 @@
 
 # The peer reviewers group should always be included
 # on proposed changes to the peer review guidelines
-docs/peer-review.md @UWIT-IAM/iam-peer-reviewers
+docs/code-review.md @UWIT-IAM/iam-peer-reviewers
