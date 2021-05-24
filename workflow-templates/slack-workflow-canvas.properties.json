@@ -1,0 +1,5 @@
+{
+    "name": "UW IAM Slack Workflow Canvas template",
+    "description": "A template with boilerplate slack canvas setup. Learn more at github.com/uwit-iam/actions/tree/main/update-slack-workflow-canvas",
+    "iconName": "iam-octo-icon"
+}
