@@ -26,17 +26,21 @@ To update the org-wide PAT, first, generate it:
 - Select an appropriate expiration period (or select "No expiration"
 - Apply the following scopes, at a minimum. If you need to change this, please also update this documentation:
 
-- `repo` (all)
-- `workflow` (all)
-- `write:packages`
-- `delete:packages`
-- `read:org`
-- `read:public_key`
-- `read:user`
+  - `repo` (all)
+  - `workflow` (all)
+  - `write:packages`
+  - `delete:packages`
+  - `read:org`
+  - `read:public_key`
+  - `read:user`
 
-- Copy the generated token to your clipboard.
+- Copy the generated token to your clipboard and paste it someplace safe for the moment
+- Click on "Configure SSO", then select "Authorize" next to the "UWIT-IAM" label; you will be asked to sign in via UW IdP.
+- Make sure the token is copied on your clipboard (in case you pasted your password in when signing in)
 - Go to the IAM secrets settings: https://github.com/organizations/UWIT-IAM/settings/secrets/actions
 - Next to `ACTIONS_PAT`, click `Update`, then click `Enter a new value`
 - Paste your token
 - Click, `save changes`
+- Clear the token from your "someplace safe" where you may have pasted it.
+
 
